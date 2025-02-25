@@ -38,7 +38,7 @@ body{
     letter-spacing: 0.1em;
 }
 
-.grid-setion{
+.grid-section{
     grid-column: 2/4;
     width: 100%;
     box-sizing: border-box;
@@ -47,3 +47,12 @@ body{
     grid-template-columns: 90px 300px 1fr;
 }
 
+.titulo{
+    font-family: Georgia;
+    font-size: 1;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    grid-column: 1/4;
+
+}
